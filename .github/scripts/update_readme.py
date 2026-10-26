@@ -35,8 +35,8 @@ def best_for(key, seconds):
 
 
 def make_svg(bests, stats):
-    # Monkeytype "serika dark" colors
-    bg, main, sub, text = "#323437", "#e2b714", "#646669", "#d1d0c5"
+    # Dark blue theme
+    bg, main, sub, text = "#0b1730", "#5ab0ff", "#6b84a8", "#dbe7ff"
     font = "'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
     width, height, pad = 495, 215, 25
     col_w = (width - 2 * pad) / len(bests)
@@ -44,7 +44,8 @@ def make_svg(bests, stats):
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}" font-family="{font}">',
-        f'<rect width="{width}" height="{height}" rx="12" fill="{bg}"/>',
+        '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1730"/><stop offset="1" stop-color="#14284b"/></linearGradient></defs>',
+        f'<rect width="{width}" height="{height}" rx="12" fill="url(#g)" stroke="{sub}" stroke-opacity="0.35"/>',
         f'<text x="{pad}" y="40" font-size="20" font-weight="bold" fill="{main}">monkeytype</text>',
         f'<text x="{width - pad}" y="40" font-size="12" fill="{sub}" text-anchor="end">personal bests</text>',
     ]
