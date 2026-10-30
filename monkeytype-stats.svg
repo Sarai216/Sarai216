@@ -35,6 +35,6 @@
 <text x="150.0" y="260" font-size="28" font-weight="bold" fill="#41ce5c" text-anchor="middle">-</text>
 <text x="150.0" y="278" font-size="12" fill="#ccdae6" text-anchor="middle">-</text>
 <line x1="25" y1="304" x2="535" y2="304" stroke="#788386" stroke-opacity="0.4"/>
-<text x="25" y="328" font-size="12"><tspan fill="#788386">tests completed </tspan><tspan fill="#ccdae6">373</tspan></text>
-<text x="300" y="328" font-size="12"><tspan fill="#788386">time typing </tspan><tspan fill="#ccdae6">2h 24m</tspan></text>
+<text x="25" y="328" font-size="12"><tspan fill="#788386">tests completed </tspan><tspan fill="#ccdae6">375</tspan></text>
+<text x="300" y="328" font-size="12"><tspan fill="#788386">time typing </tspan><tspan fill="#ccdae6">2h 25m</tspan></text>
 </svg>
