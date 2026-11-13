@@ -1,3 +1,3 @@
    <!--MONKEYTYPE-START-->
-<p align="center"><img src="monkeytype-stats.svg?v=1794544609" alt="Monkeytype stats" /></p>
+<p align="center"><img src="monkeytype-stats.svg?v=1794577572" alt="Monkeytype stats" /></p>
 <!--MONKEYTYPE-END-->
